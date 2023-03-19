@@ -1,0 +1,8 @@
+.place__paragraph {
+    margin: 0;
+    grid-area: place__paragraph;
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 400;
+    border: red 1px solid;
+  }

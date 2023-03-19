@@ -1,0 +1,11 @@
+.footer__navigation-item {
+    margin-right: 18px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border: red 1px solid;
+  }
+
+  .footer__navigation-item:last-child {
+    margin: 0;
+  }
