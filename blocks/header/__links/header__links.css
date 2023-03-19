@@ -2,3 +2,9 @@
   margin: auto 0;
   border: red 1px solid;
 }
+
+@media screen and (max-width: 320px) {
+  .header__links {
+    margin-top: 14px;
+  }
+}

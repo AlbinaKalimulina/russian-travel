@@ -5,3 +5,13 @@
     list-style-type: none;
     border: red 1px solid;
   }
+
+  @media screen and (max-width: 767px) {
+    .footer__navigation-items {
+      justify-content: space-evenly;
+      flex-direction: column;
+      margin-bottom: 48px;
+      display: flex;
+      max-width: 158px;
+    }
+  }

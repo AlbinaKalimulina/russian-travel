@@ -7,3 +7,17 @@
     font-weight: 400;
     border: red 1px solid;
   }
+
+  @media screen and (max-width: 400px) {
+    .cover__subtitle {
+      line-height: 16px;
+      max-width: 300px;
+      font-size: 14px;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .cover__subtitle {
+      max-width: 288px;
+    }
+  }

@@ -3,3 +3,9 @@
     align-self: end;
     border: red 1px solid;
   }
+
+  @media screen and (max-width: 480px) {
+    .place__website {
+      padding: 0 16px 0 16px;
+    }
+  }

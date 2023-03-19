@@ -9,3 +9,24 @@
     border: red 1px solid;
   }
   
+  @media screen and (max-width: 600px) {
+    .lead__subtitle {
+      line-height: 26px;
+      padding-top: 16px;
+      font-size: 20px;
+      max-width: 70%;
+    }
+  }
+  
+  @media screen and (max-width: 475px) {
+    .lead__subtitle {
+      line-height: 20px;
+      font-size: 16px;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .lead__subtitle {
+      max-width: 288px;
+    }
+  }

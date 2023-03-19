@@ -7,3 +7,15 @@
     border: red 1px solid;
   }
   
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .header {
+      padding: 28px 24px 0 24px;
+    }
+  }
+  
+  @media (min-width: 320px) and (max-width: 767px) {
+    .header {
+      padding: 16px 16px 0 16px;
+      min-width: 288px;
+    }
+  }

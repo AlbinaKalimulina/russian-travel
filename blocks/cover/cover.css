@@ -2,3 +2,9 @@
     margin: 0 48px;
     border: red 1px solid;
   }
+
+  @media screen and (max-width: 1024px) {
+    .cover {
+      padding: 0;
+    }
+  }
