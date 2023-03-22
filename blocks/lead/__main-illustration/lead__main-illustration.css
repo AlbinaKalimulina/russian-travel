@@ -4,9 +4,9 @@
     object-fit: cover;
     object-position: top;
     border: red 1px solid;
-  }
+}
 
-  @media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .lead__main-illustration {
         margin: 56px 0 0;
     }

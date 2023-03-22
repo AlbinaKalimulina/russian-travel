@@ -1,40 +1,8 @@
-/*.intro__list {
-    margin-top: 33px;
-    margin-bottom: 0;
-    padding: 0;
-    font-size: 12px;
-    line-height: 18px;
-    font-weight: 700;
-    font-style: normal;
-    list-style: none;
-    border: red 1px solid;
-  }
-
-  @media screen and (min-width: 768px) and (max-width: 1023px) {
-    .intro__list {
-      padding-bottom: 88px;
-      padding-top: 33px;
-    }
-  }
-  
-  @media screen and (min-width: 1024px) {
-    .intro__list {
-      padding-bottom: 92px;
-      padding-top: 33px;
-    }
-  }
-  
-  @media screen and (max-width: 767px) {
-    .intro__list {
-      padding: 34px 0 64px 0;
-    }
-  }*/
-
-  .intro__list {
-    list-style-type: none;
-    margin: 33px 0 0 -40px;
-    font-size: 12px;
-    line-height: 18px;
-    font-weight: 700;
-    border: red 1px solid;
+.intro__list {
+  margin: 33px 0 0 -40px;
+  list-style: none;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+  border: red 1px solid;
 }

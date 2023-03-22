@@ -1,27 +1,27 @@
 .header__link {
-    margin-right: 18px;
-    display: block;
-    float: left;
-    color: white;
-    font-size: 24px;
-    line-height: 28px;
-    font-weight: 400;
-    text-decoration: none;
-    transition: opacity 0.5s ease;
-    border: red 1px solid;
-  }
-  
-  .header__link:last-child {
-    margin-right: 0;
-  }
-  
-  .header__link:hover {
-    opacity: 0.5;
-  }
+  margin-right: 18px;
+  display: block;
+  float: left;
+  color: white;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 400;
+  text-decoration: none;
+  transition: opacity 0.5s ease;
+  border: red 1px solid;
+}
 
-  @media screen and (max-width: 320px) {
-    .header__link {
-      line-height: 20px;
-      font-size: 18px;
-    }
+.header__link:last-child {
+  margin-right: 0;
+}
+
+.header__link:hover {
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 320px) {
+  .header__link {
+    line-height: 20px;
+    font-size: 18px;
   }
+}

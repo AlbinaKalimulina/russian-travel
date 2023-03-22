@@ -1,16 +1,15 @@
 .place__link {
-    margin: 12px 0 0 0;
-    grid-area: place__link;
-    font-size: 18px;
-    line-height: 1.2;
-    font-weight: 400;
-    color: white;
-    transition: 0.5s ease;
-    border: red 1px solid;
-  }
+  margin: 12px 0 0 0;
+  grid-area: place__link;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: white;
+  transition: 0.5s ease;
+  border: red 1px solid;
+}
 
-  .place__link:hover {
-    transition: 0.5s ease;
-    opacity: 0.5;
-  }
-  
+.place__link:hover {
+  transition: 0.5s ease;
+  opacity: 0.5;
+}

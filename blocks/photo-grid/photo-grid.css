@@ -5,24 +5,22 @@
     grid-gap: 16px;
     justify-content: center;
     border: red 1px solid;
-  }
+}
 
-  @media screen and (min-width: 1281px)  {
+@media screen and (min-width: 1281px) {
     .photo-grid {
         grid-template-columns: repeat(4, 284px);
         grid-template-rows: repeat(3, 213px);
     }
 }
 
-@media screen and (max-width: 1024px)  {
+@media screen and (max-width: 1024px) {
     .photo-grid {
         grid-gap: 14px;
         grid-template-columns: repeat(auto-fill, 300px);
         grid-template-rows: repeat(auto-fill, 225px);
     }
 }
-
-
 
 @media screen and (max-width: 768px) {
     .photo-grid {
