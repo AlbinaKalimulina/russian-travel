@@ -1,17 +1,21 @@
 .place__card {
-    max-width: 484px;
-    grid-column: 2/3;
-    grid-row: 2/3;
-    align-self: start;
-    justify-self: start;
+    grid-area: place__paragraph;
+    margin: 0;
+    font-size: 18px;
+    line-height: 163%;
+    font-weight: 400;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 838px) {
     .place__card {
-        max-width: 288px;
-        grid-column: 1/2;
-        grid-row: 3/4;
-        align-self: center;
-        justify-self: center;
+        font-size: 16px;
+
+    }
+}
+
+@media screen and (max-width: 388px) {
+    .place__card {
+        max-width: 90%;
+        margin: 0 auto;
     }
 }

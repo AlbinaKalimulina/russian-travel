@@ -10,9 +10,9 @@
     margin: 0;
   }
 
-  @media screen and (max-width: 767px) {
+ @media screen and (max-width: 767px) {
     .footer__navigation-item {
-      margin-bottom: 32px;
+
       line-height: 24px;
       font-size: 24px;
     }
