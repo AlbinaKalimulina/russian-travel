@@ -26,7 +26,7 @@
   }
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 768px) {
   .place {
     grid-template-columns: minmax(340px, 1fr) minmax(min-content, max-content);
     grid-template-rows: minmax(min-content, max-content) minmax(340px, 1fr);
@@ -39,7 +39,7 @@
   }
 }
 
-@media screen and (max-width: 664px) {
+@media screen and (max-width: 600px) {
   .place {
     margin: 0;
     display: flex;
