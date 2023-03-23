@@ -4,7 +4,6 @@
   display: flex;
   list-style: none;
   gap: 18px;
-  border: red 1px solid;
 }
 
 @media screen and (max-width: 767px) {

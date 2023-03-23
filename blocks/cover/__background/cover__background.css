@@ -13,7 +13,6 @@
   background-position: center;
   background-size: cover;
   z-index: 1;
-  border: red 1px solid;
 }
 
 .cover__background::before {
@@ -27,7 +26,6 @@
   opacity: 0.5;
   transition: opacity 0.5s ease;
   z-index: -1;
-  border: red 1px solid;
 }
 
 .cover__background:hover::before {

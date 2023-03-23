@@ -3,7 +3,6 @@
   display: flex;
   flex-direction: column;
   justify-content: end;
-  border: red 1px solid;
 }
 
 @media screen and (max-width: 395px) {

@@ -8,7 +8,6 @@
   grid-template-areas:
     "place__title place__website"
     "place__image place__card";
-    border: red 1px solid;
 }
 
 .place:first-child {

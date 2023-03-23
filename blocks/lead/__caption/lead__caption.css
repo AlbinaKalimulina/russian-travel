@@ -6,7 +6,6 @@
     font-style: normal;
     letter-spacing: 1.5px;
     text-transform: uppercase;
-    border: red 1px solid;
 }
 
 @media screen and (max-width: 768px) {

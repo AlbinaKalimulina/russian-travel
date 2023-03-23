@@ -1,6 +1,5 @@
 .header__links {
   margin: 18px 0 0 0;
-  border: red 1px solid;
 }
 
 @media screen and (max-width: 320px) {
