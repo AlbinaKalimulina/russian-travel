@@ -1,8 +1,9 @@
 .intro__list {
-  margin: 33px 0 0 -40px;
+  margin: 37px 0 0 -40px;
   list-style: none;
   font-size: 12px;
   line-height: 18px;
   font-weight: 700;
+  text-align: left;
   border: red 1px solid;
 }
