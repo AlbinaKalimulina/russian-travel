@@ -19,3 +19,4 @@
 Реализовать переключение языков
 
 ## Ссылка на демо версию проекта:
+https://albinakalimulina.github.io/russian-travel/
