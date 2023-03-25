@@ -16,3 +16,9 @@
     font-size: 24px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .footer__navigation-item {
+    margin-bottom: 16px;
+  }
+}
