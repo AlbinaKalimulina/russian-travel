@@ -1,9 +1,15 @@
 .intro__list {
   margin: 0;
-  padding: 37px 0 0 0;
+  padding: 33px 0 0 0;
   list-style: none;
   font-size: 12px;
   line-height: 18px;
   font-weight: 600;
   text-align: left;
+}
+
+@media screen and (max-width: 320px) {
+  .intro__list {
+    padding-top: 37px;
+  }
 }

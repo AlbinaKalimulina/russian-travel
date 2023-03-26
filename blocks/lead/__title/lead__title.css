@@ -3,14 +3,14 @@
   max-width: 720px;
   text-align: center;
   font-size: 96px;
-  line-height: 1;
+  line-height: 100px;
   font-style: normal;
   font-weight: 900;
 }
 
 @media screen and (max-width: 1024px) {
   .lead__title {
-    margin: 48px;
+    margin-top: 48px;
   }
 }
 
