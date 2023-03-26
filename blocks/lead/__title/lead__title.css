@@ -21,7 +21,22 @@
   }
 }
 
+/*@media screen and (max-width: 580px) {
+  .lead__title {
+    margin: 48px 16px 0 16px;
+    max-width: 288px;
+    line-height: 44px;
+  }
+}*/
+
 @media screen and (max-width: 580px) {
+  .lead__title {
+    margin: 48px auto 0 auto;
+    line-height: 1.1;
+  }
+}
+
+@media screen and (max-width: 320px) {
   .lead__title {
     margin: 48px 16px 0 16px;
     max-width: 288px;
